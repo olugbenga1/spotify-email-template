@@ -126,3 +126,37 @@ main {
 .footer-div span:nth-child(3) {
     border-right: none;
 }
+
+
+
+@media only screen and (max-width: 599px) {
+    main {
+        min-width: 80%;
+        margin: 2rem auto;
+        
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    main {
+        width: 60%;
+        margin: 2rem auto;
+        
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    main {
+        width: 50%;
+        margin: 2rem auto;
+        
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    main {
+        width: 40%;
+        margin: 2rem auto;
+        
+    }
+}
